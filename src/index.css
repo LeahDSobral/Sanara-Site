@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: #04080f;
+    --card: #080e1a;
+    --text: #ccd6f6;
+    --dim: #6a85b0;
+    --accent: #4fc3f7;
+    --accent2: #1565c0;
+    --border: #0d1b2e;
+    --font: 'Courier New', Courier, monospace;
+
+    --background: 220 50% 4%;
+    --foreground: 220 40% 90%;
+    --card: 220 50% 6%;
+    --card-foreground: 220 40% 90%;
+    --popover: 220 50% 6%;
+    --popover-foreground: 220 40% 90%;
+    --primary: 199 91% 64%;
+    --primary-foreground: 220 50% 4%;
+    --secondary: 220 50% 10%;
+    --secondary-foreground: 220 40% 90%;
+    --muted: 220 30% 12%;
+    --muted-foreground: 220 30% 55%;
+    --accent: 199 91% 64%;
+    --accent-foreground: 220 50% 4%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 50% 11%;
+    --input: 220 50% 11%;
+    --ring: 199 91% 64%;
+    --chart-1: 199 91% 64%;
+    --chart-2: 213 76% 42%;
+    --chart-3: 210 30% 35%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0rem;
+    --sidebar-background: 220 50% 5%;
+    --sidebar-foreground: 220 40% 90%;
+    --sidebar-primary: 199 91% 64%;
+    --sidebar-primary-foreground: 220 50% 4%;
+    --sidebar-accent: 220 50% 10%;
+    --sidebar-accent-foreground: 220 40% 90%;
+    --sidebar-border: 220 50% 11%;
+    --sidebar-ring: 199 91% 64%;
+  }
+
+  .dark {
+    --background: 220 50% 4%;
+    --foreground: 220 40% 90%;
+    --card: 220 50% 6%;
+    --card-foreground: 220 40% 90%;
+    --popover: 220 50% 6%;
+    --popover-foreground: 220 40% 90%;
+    --primary: 199 91% 64%;
+    --primary-foreground: 220 50% 4%;
+    --secondary: 220 50% 10%;
+    --secondary-foreground: 220 40% 90%;
+    --muted: 220 30% 12%;
+    --muted-foreground: 220 30% 55%;
+    --accent: 199 91% 64%;
+    --accent-foreground: 220 50% 4%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 50% 11%;
+    --input: 220 50% 11%;
+    --ring: 199 91% 64%;
+    --chart-1: 199 91% 64%;
+    --chart-2: 213 76% 42%;
+    --chart-3: 210 30% 35%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --sidebar-background: 220 50% 5%;
+    --sidebar-foreground: 220 40% 90%;
+    --sidebar-primary: 199 91% 64%;
+    --sidebar-primary-foreground: 220 50% 4%;
+    --sidebar-accent: 220 50% 10%;
+    --sidebar-accent-foreground: 220 40% 90%;
+    --sidebar-border: 220 50% 11%;
+    --sidebar-ring: 199 91% 64%;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    background-color: #04080f;
+    color: #ccd6f6;
+    font-family: 'Courier New', Courier, monospace;
+  }
+}

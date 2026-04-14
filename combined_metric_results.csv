@@ -1,0 +1,253 @@
+specialty,sample_id,audio_tier,model,metric_source,metric_code,value,metric_name,group,output_type,lower_is_better
+CARDIAC,CARD_0001,clean,whisper,WHISPER_Metrics,jiwer.wer(),0.2761904761904762,WER - Word Error Rate,Summary Error Rates,Percentage (%),True
+CARDIAC,CARD_0001,clean,whisper,WHISPER_Metrics,jiwer.cer(),0.11773794808405438,CER - Character Error Rate,Summary Error Rates,Percentage (%),True
+CARDIAC,CARD_0001,clean,whisper,WHISPER_Metrics,jiwer.mer(),0.2664624808575804,MER - Match Error Rate,Summary Error Rates,Percentage (%),True
+CARDIAC,CARD_0001,clean,whisper,WHISPER_Metrics,jiwer.wil(),0.3990229975378491,WIL - Word Information Lost,Summary Error Rates,Percentage (%),True
+CARDIAC,CARD_0001,clean,whisper,WHISPER_Metrics,jiwer.wip(),0.6009770024621509,WIP - Word Information Preserved,Summary Error Rates,Percentage (%),False
+CARDIAC,CARD_0001,clean,whisper,WHISPER_Metrics,result.substitutions,104.0,Substitutions,Error Type Breakdown,Integer count,True
+CARDIAC,CARD_0001,clean,whisper,WHISPER_Metrics,result.deletions,47.0,Deletions,Error Type Breakdown,Integer count,True
+CARDIAC,CARD_0001,clean,whisper,WHISPER_Metrics,result.insertions,23.0,Insertions,Error Type Breakdown,Integer count,True
+CARDIAC,CARD_0001,clean,whisper,WHISPER_Metrics,result.hits,479.0,Hits - Correct Words,Error Type Breakdown,Integer count,False
+CARDIAC,CARD_0001,clean,whisper,WHISPER_Metrics,hits / N * 100,76.03174603174604,Word Accuracy,Derived Metrics,Percentage (%),False
+CARDIAC,CARD_0001,clean,whisper,WHISPER_Metrics,S / (S+D+I) * 100,59.770114942528735,Substitution Rate,Derived Metrics,Percentage (%),False
+CARDIAC,CARD_0001,clean,whisper,WHISPER_Metrics,D / (S+D+I) * 100,27.011494252873565,Deletion Rate,Derived Metrics,Percentage (%),False
+CARDIAC,CARD_0001,clean,whisper,WHISPER_Metrics,I / (S+D+I) * 100,13.218390804597702,Insertion Rate,Derived Metrics,Percentage (%),False
+CARDIAC,CARD_0001,clean,whisper,WHISPER_Metrics,whisper_wer,27.61904761904762,,,,True
+CARDIAC,CARD_0001,med,whisper,WHISPER_Metrics,jiwer.wer(),0.2777777777777778,WER - Word Error Rate,Summary Error Rates,Percentage (%),True
+CARDIAC,CARD_0001,med,whisper,WHISPER_Metrics,jiwer.cer(),0.12021013597033374,CER - Character Error Rate,Summary Error Rates,Percentage (%),True
+CARDIAC,CARD_0001,med,whisper,WHISPER_Metrics,jiwer.mer(),0.26676829268292684,MER - Match Error Rate,Summary Error Rates,Percentage (%),True
+CARDIAC,CARD_0001,med,whisper,WHISPER_Metrics,jiwer.wil(),0.4076779313876089,WIL - Word Information Lost,Summary Error Rates,Percentage (%),True
+CARDIAC,CARD_0001,med,whisper,WHISPER_Metrics,jiwer.wip(),0.5923220686123911,WIP - Word Information Preserved,Summary Error Rates,Percentage (%),False
+CARDIAC,CARD_0001,med,whisper,WHISPER_Metrics,result.substitutions,113.0,Substitutions,Error Type Breakdown,Integer count,True
+CARDIAC,CARD_0001,med,whisper,WHISPER_Metrics,result.deletions,36.0,Deletions,Error Type Breakdown,Integer count,True
+CARDIAC,CARD_0001,med,whisper,WHISPER_Metrics,result.insertions,26.0,Insertions,Error Type Breakdown,Integer count,True
+CARDIAC,CARD_0001,med,whisper,WHISPER_Metrics,result.hits,481.0,Hits - Correct Words,Error Type Breakdown,Integer count,False
+CARDIAC,CARD_0001,med,whisper,WHISPER_Metrics,hits / N * 100,76.34920634920636,Word Accuracy,Derived Metrics,Percentage (%),False
+CARDIAC,CARD_0001,med,whisper,WHISPER_Metrics,S / (S+D+I) * 100,64.57142857142857,Substitution Rate,Derived Metrics,Percentage (%),False
+CARDIAC,CARD_0001,med,whisper,WHISPER_Metrics,D / (S+D+I) * 100,20.571428571428573,Deletion Rate,Derived Metrics,Percentage (%),False
+CARDIAC,CARD_0001,med,whisper,WHISPER_Metrics,I / (S+D+I) * 100,14.857142857142858,Insertion Rate,Derived Metrics,Percentage (%),False
+CARDIAC,CARD_0001,med,whisper,WHISPER_Metrics,whisper_wer,27.77777777777778,,,,True
+CARDIAC,CARD_0001,hard,whisper,WHISPER_Metrics,jiwer.wer(),0.33015873015873015,WER - Word Error Rate,Summary Error Rates,Percentage (%),True
+CARDIAC,CARD_0001,hard,whisper,WHISPER_Metrics,jiwer.cer(),0.1492583436341162,CER - Character Error Rate,Summary Error Rates,Percentage (%),True
+CARDIAC,CARD_0001,hard,whisper,WHISPER_Metrics,jiwer.mer(),0.3132530120481928,MER - Match Error Rate,Summary Error Rates,Percentage (%),True
+CARDIAC,CARD_0001,hard,whisper,WHISPER_Metrics,jiwer.wil(),0.4659269533055941,WIL - Word Information Lost,Summary Error Rates,Percentage (%),True
+CARDIAC,CARD_0001,hard,whisper,WHISPER_Metrics,jiwer.wip(),0.5340730466944059,WIP - Word Information Preserved,Summary Error Rates,Percentage (%),False
+CARDIAC,CARD_0001,hard,whisper,WHISPER_Metrics,result.substitutions,128.0,Substitutions,Error Type Breakdown,Integer count,True
+CARDIAC,CARD_0001,hard,whisper,WHISPER_Metrics,result.deletions,46.0,Deletions,Error Type Breakdown,Integer count,True
+CARDIAC,CARD_0001,hard,whisper,WHISPER_Metrics,result.insertions,34.0,Insertions,Error Type Breakdown,Integer count,True
+CARDIAC,CARD_0001,hard,whisper,WHISPER_Metrics,result.hits,456.0,Hits - Correct Words,Error Type Breakdown,Integer count,False
+CARDIAC,CARD_0001,hard,whisper,WHISPER_Metrics,hits / N * 100,72.38095238095238,Word Accuracy,Derived Metrics,Percentage (%),False
+CARDIAC,CARD_0001,hard,whisper,WHISPER_Metrics,S / (S+D+I) * 100,61.53846153846154,Substitution Rate,Derived Metrics,Percentage (%),False
+CARDIAC,CARD_0001,hard,whisper,WHISPER_Metrics,D / (S+D+I) * 100,22.115384615384617,Deletion Rate,Derived Metrics,Percentage (%),False
+CARDIAC,CARD_0001,hard,whisper,WHISPER_Metrics,I / (S+D+I) * 100,16.346153846153847,Insertion Rate,Derived Metrics,Percentage (%),False
+CARDIAC,CARD_0001,hard,whisper,WHISPER_Metrics,whisper_wer,33.01587301587301,,,,True
+HALO,HALO_0001,clean,whisper,WHISPER_Metrics,jiwer.wer(),0.24937965260545905,WER - Word Error Rate,Summary Error Rates,Percentage (%),True
+HALO,HALO_0001,clean,whisper,WHISPER_Metrics,jiwer.cer(),0.12581699346405228,CER - Character Error Rate,Summary Error Rates,Percentage (%),True
+HALO,HALO_0001,clean,whisper,WHISPER_Metrics,jiwer.mer(),0.23591549295774647,MER - Match Error Rate,Summary Error Rates,Percentage (%),True
+HALO,HALO_0001,clean,whisper,WHISPER_Metrics,jiwer.wil(),0.34356093344857386,WIL - Word Information Lost,Summary Error Rates,Percentage (%),True
+HALO,HALO_0001,clean,whisper,WHISPER_Metrics,jiwer.wip(),0.6564390665514261,WIP - Word Information Preserved,Summary Error Rates,Percentage (%),False
+HALO,HALO_0001,clean,whisper,WHISPER_Metrics,result.substitutions,104.0,Substitutions,Error Type Breakdown,Integer count,True
+HALO,HALO_0001,clean,whisper,WHISPER_Metrics,result.deletions,51.0,Deletions,Error Type Breakdown,Integer count,True
+HALO,HALO_0001,clean,whisper,WHISPER_Metrics,result.insertions,46.0,Insertions,Error Type Breakdown,Integer count,True
+HALO,HALO_0001,clean,whisper,WHISPER_Metrics,result.hits,651.0,Hits - Correct Words,Error Type Breakdown,Integer count,False
+HALO,HALO_0001,clean,whisper,WHISPER_Metrics,hits / N * 100,80.76923076923077,Word Accuracy,Derived Metrics,Percentage (%),False
+HALO,HALO_0001,clean,whisper,WHISPER_Metrics,S / (S+D+I) * 100,51.74129353233831,Substitution Rate,Derived Metrics,Percentage (%),False
+HALO,HALO_0001,clean,whisper,WHISPER_Metrics,D / (S+D+I) * 100,25.37313432835821,Deletion Rate,Derived Metrics,Percentage (%),False
+HALO,HALO_0001,clean,whisper,WHISPER_Metrics,I / (S+D+I) * 100,22.885572139303484,Insertion Rate,Derived Metrics,Percentage (%),False
+HALO,HALO_0001,clean,whisper,WHISPER_Metrics,whisper_wer,24.937965260545905,,,,True
+HALO,HALO_0001,med,whisper,WHISPER_Metrics,jiwer.wer(),0.9255583126550868,WER - Word Error Rate,Summary Error Rates,Percentage (%),True
+HALO,HALO_0001,med,whisper,WHISPER_Metrics,jiwer.cer(),0.6986461251167133,CER - Character Error Rate,Summary Error Rates,Percentage (%),True
+HALO,HALO_0001,med,whisper,WHISPER_Metrics,jiwer.mer(),0.9209876543209876,MER - Match Error Rate,Summary Error Rates,Percentage (%),True
+HALO,HALO_0001,med,whisper,WHISPER_Metrics,jiwer.wil(),0.99213330362836,WIL - Word Information Lost,Summary Error Rates,Percentage (%),True
+HALO,HALO_0001,med,whisper,WHISPER_Metrics,jiwer.wip(),0.007866696371639946,WIP - Word Information Preserved,Summary Error Rates,Percentage (%),False
+HALO,HALO_0001,med,whisper,WHISPER_Metrics,result.substitutions,578.0,Substitutions,Error Type Breakdown,Integer count,True
+HALO,HALO_0001,med,whisper,WHISPER_Metrics,result.deletions,164.0,Deletions,Error Type Breakdown,Integer count,True
+HALO,HALO_0001,med,whisper,WHISPER_Metrics,result.insertions,4.0,Insertions,Error Type Breakdown,Integer count,True
+HALO,HALO_0001,med,whisper,WHISPER_Metrics,result.hits,64.0,Hits - Correct Words,Error Type Breakdown,Integer count,False
+HALO,HALO_0001,med,whisper,WHISPER_Metrics,hits / N * 100,7.94044665012407,Word Accuracy,Derived Metrics,Percentage (%),False
+HALO,HALO_0001,med,whisper,WHISPER_Metrics,S / (S+D+I) * 100,77.4798927613941,Substitution Rate,Derived Metrics,Percentage (%),False
+HALO,HALO_0001,med,whisper,WHISPER_Metrics,D / (S+D+I) * 100,21.98391420911528,Deletion Rate,Derived Metrics,Percentage (%),False
+HALO,HALO_0001,med,whisper,WHISPER_Metrics,I / (S+D+I) * 100,0.5361930294906166,Insertion Rate,Derived Metrics,Percentage (%),False
+HALO,HALO_0001,med,whisper,WHISPER_Metrics,whisper_wer,92.55583126550869,,,,True
+HALO,HALO_0001,hard,whisper,WHISPER_Metrics,jiwer.wer(),0.9255583126550868,WER - Word Error Rate,Summary Error Rates,Percentage (%),True
+HALO,HALO_0001,hard,whisper,WHISPER_Metrics,jiwer.cer(),0.6995798319327731,CER - Character Error Rate,Summary Error Rates,Percentage (%),True
+HALO,HALO_0001,hard,whisper,WHISPER_Metrics,jiwer.mer(),0.9221260815822002,MER - Match Error Rate,Summary Error Rates,Percentage (%),True
+HALO,HALO_0001,hard,whisper,WHISPER_Metrics,jiwer.wil(),0.9925950111009534,WIL - Word Information Lost,Summary Error Rates,Percentage (%),True
+HALO,HALO_0001,hard,whisper,WHISPER_Metrics,jiwer.wip(),0.007404988899046625,WIP - Word Information Preserved,Summary Error Rates,Percentage (%),False
+HALO,HALO_0001,hard,whisper,WHISPER_Metrics,result.substitutions,599.0,Substitutions,Error Type Breakdown,Integer count,True
+HALO,HALO_0001,hard,whisper,WHISPER_Metrics,result.deletions,144.0,Deletions,Error Type Breakdown,Integer count,True
+HALO,HALO_0001,hard,whisper,WHISPER_Metrics,result.insertions,3.0,Insertions,Error Type Breakdown,Integer count,True
+HALO,HALO_0001,hard,whisper,WHISPER_Metrics,result.hits,63.0,Hits - Correct Words,Error Type Breakdown,Integer count,False
+HALO,HALO_0001,hard,whisper,WHISPER_Metrics,hits / N * 100,7.816377171215881,Word Accuracy,Derived Metrics,Percentage (%),False
+HALO,HALO_0001,hard,whisper,WHISPER_Metrics,S / (S+D+I) * 100,80.29490616621985,Substitution Rate,Derived Metrics,Percentage (%),False
+HALO,HALO_0001,hard,whisper,WHISPER_Metrics,D / (S+D+I) * 100,19.302949061662197,Deletion Rate,Derived Metrics,Percentage (%),False
+HALO,HALO_0001,hard,whisper,WHISPER_Metrics,I / (S+D+I) * 100,0.40214477211796246,Insertion Rate,Derived Metrics,Percentage (%),False
+HALO,HALO_0001,hard,whisper,WHISPER_Metrics,whisper_wer,92.55583126550869,,,,True
+NEURO,NEURO_0001,clean,whisper,WHISPER_Metrics,jiwer.wer(),0.2029102667744543,WER - Word Error Rate,Summary Error Rates,Percentage (%),True
+NEURO,NEURO_0001,clean,whisper,WHISPER_Metrics,jiwer.cer(),0.07549713515335356,CER - Character Error Rate,Summary Error Rates,Percentage (%),True
+NEURO,NEURO_0001,clean,whisper,WHISPER_Metrics,jiwer.mer(),0.19904837430610625,MER - Match Error Rate,Summary Error Rates,Percentage (%),True
+NEURO,NEURO_0001,clean,whisper,WHISPER_Metrics,jiwer.wil(),0.3173373950007228,WIL - Word Information Lost,Summary Error Rates,Percentage (%),True
+NEURO,NEURO_0001,clean,whisper,WHISPER_Metrics,jiwer.wip(),0.6826626049992772,WIP - Word Information Preserved,Summary Error Rates,Percentage (%),False
+NEURO,NEURO_0001,clean,whisper,WHISPER_Metrics,result.substitutions,174.0,Substitutions,Error Type Breakdown,Integer count,True
+NEURO,NEURO_0001,clean,whisper,WHISPER_Metrics,result.deletions,53.0,Deletions,Error Type Breakdown,Integer count,True
+NEURO,NEURO_0001,clean,whisper,WHISPER_Metrics,result.insertions,24.0,Insertions,Error Type Breakdown,Integer count,True
+NEURO,NEURO_0001,clean,whisper,WHISPER_Metrics,result.hits,1010.0,Hits - Correct Words,Error Type Breakdown,Integer count,False
+NEURO,NEURO_0001,clean,whisper,WHISPER_Metrics,hits / N * 100,81.64915117219078,Word Accuracy,Derived Metrics,Percentage (%),False
+NEURO,NEURO_0001,clean,whisper,WHISPER_Metrics,S / (S+D+I) * 100,69.32270916334662,Substitution Rate,Derived Metrics,Percentage (%),False
+NEURO,NEURO_0001,clean,whisper,WHISPER_Metrics,D / (S+D+I) * 100,21.115537848605577,Deletion Rate,Derived Metrics,Percentage (%),False
+NEURO,NEURO_0001,clean,whisper,WHISPER_Metrics,I / (S+D+I) * 100,9.56175298804781,Insertion Rate,Derived Metrics,Percentage (%),False
+NEURO,NEURO_0001,clean,whisper,WHISPER_Metrics,whisper_wer,20.29102667744543,,,,True
+NEURO,NEURO_0001,med,whisper,WHISPER_Metrics,jiwer.wer(),0.20776071139854488,WER - Word Error Rate,Summary Error Rates,Percentage (%),True
+NEURO,NEURO_0001,med,whisper,WHISPER_Metrics,jiwer.cer(),0.07819346140883048,CER - Character Error Rate,Summary Error Rates,Percentage (%),True
+NEURO,NEURO_0001,med,whisper,WHISPER_Metrics,jiwer.mer(),0.20268138801261829,MER - Match Error Rate,Summary Error Rates,Percentage (%),True
+NEURO,NEURO_0001,med,whisper,WHISPER_Metrics,jiwer.wil(),0.32492629226306535,WIL - Word Information Lost,Summary Error Rates,Percentage (%),True
+NEURO,NEURO_0001,med,whisper,WHISPER_Metrics,jiwer.wip(),0.6750737077369346,WIP - Word Information Preserved,Summary Error Rates,Percentage (%),False
+NEURO,NEURO_0001,med,whisper,WHISPER_Metrics,result.substitutions,182.0,Substitutions,Error Type Breakdown,Integer count,True
+NEURO,NEURO_0001,med,whisper,WHISPER_Metrics,result.deletions,44.0,Deletions,Error Type Breakdown,Integer count,True
+NEURO,NEURO_0001,med,whisper,WHISPER_Metrics,result.insertions,31.0,Insertions,Error Type Breakdown,Integer count,True
+NEURO,NEURO_0001,med,whisper,WHISPER_Metrics,result.hits,1011.0,Hits - Correct Words,Error Type Breakdown,Integer count,False
+NEURO,NEURO_0001,med,whisper,WHISPER_Metrics,hits / N * 100,81.72999191592562,Word Accuracy,Derived Metrics,Percentage (%),False
+NEURO,NEURO_0001,med,whisper,WHISPER_Metrics,S / (S+D+I) * 100,70.8171206225681,Substitution Rate,Derived Metrics,Percentage (%),False
+NEURO,NEURO_0001,med,whisper,WHISPER_Metrics,D / (S+D+I) * 100,17.120622568093385,Deletion Rate,Derived Metrics,Percentage (%),False
+NEURO,NEURO_0001,med,whisper,WHISPER_Metrics,I / (S+D+I) * 100,12.062256809338521,Insertion Rate,Derived Metrics,Percentage (%),False
+NEURO,NEURO_0001,med,whisper,WHISPER_Metrics,whisper_wer,20.776071139854487,,,,True
+NEURO,NEURO_0001,hard,whisper,WHISPER_Metrics,jiwer.wer(),0.29668552950687144,WER - Word Error Rate,Summary Error Rates,Percentage (%),True
+NEURO,NEURO_0001,hard,whisper,WHISPER_Metrics,jiwer.cer(),0.15369059656218403,CER - Character Error Rate,Summary Error Rates,Percentage (%),True
+NEURO,NEURO_0001,hard,whisper,WHISPER_Metrics,jiwer.mer(),0.2869429241594996,MER - Match Error Rate,Summary Error Rates,Percentage (%),True
+NEURO,NEURO_0001,hard,whisper,WHISPER_Metrics,jiwer.wil(),0.44292623399343223,WIL - Word Information Lost,Summary Error Rates,Percentage (%),True
+NEURO,NEURO_0001,hard,whisper,WHISPER_Metrics,jiwer.wip(),0.5570737660065678,WIP - Word Information Preserved,Summary Error Rates,Percentage (%),False
+NEURO,NEURO_0001,hard,whisper,WHISPER_Metrics,result.substitutions,253.0,Substitutions,Error Type Breakdown,Integer count,True
+NEURO,NEURO_0001,hard,whisper,WHISPER_Metrics,result.deletions,72.0,Deletions,Error Type Breakdown,Integer count,True
+NEURO,NEURO_0001,hard,whisper,WHISPER_Metrics,result.insertions,42.0,Insertions,Error Type Breakdown,Integer count,True
+NEURO,NEURO_0001,hard,whisper,WHISPER_Metrics,result.hits,912.0,Hits - Correct Words,Error Type Breakdown,Integer count,False
+NEURO,NEURO_0001,hard,whisper,WHISPER_Metrics,hits / N * 100,73.72675828617623,Word Accuracy,Derived Metrics,Percentage (%),False
+NEURO,NEURO_0001,hard,whisper,WHISPER_Metrics,S / (S+D+I) * 100,68.93732970027249,Substitution Rate,Derived Metrics,Percentage (%),False
+NEURO,NEURO_0001,hard,whisper,WHISPER_Metrics,D / (S+D+I) * 100,19.618528610354222,Deletion Rate,Derived Metrics,Percentage (%),False
+NEURO,NEURO_0001,hard,whisper,WHISPER_Metrics,I / (S+D+I) * 100,11.444141689373296,Insertion Rate,Derived Metrics,Percentage (%),False
+NEURO,NEURO_0001,hard,whisper,WHISPER_Metrics,whisper_wer,29.668552950687143,,,,True
+OB,OB_0001,clean,whisper,WHISPER_Metrics,jiwer.wer(),0.4575311438278596,WER - Word Error Rate,Summary Error Rates,Percentage (%),True
+OB,OB_0001,clean,whisper,WHISPER_Metrics,jiwer.cer(),0.34088291746641075,CER - Character Error Rate,Summary Error Rates,Percentage (%),True
+OB,OB_0001,clean,whisper,WHISPER_Metrics,jiwer.mer(),0.36594202898550726,MER - Match Error Rate,Summary Error Rates,Percentage (%),True
+OB,OB_0001,clean,whisper,WHISPER_Metrics,jiwer.wil(),0.48234478795152214,WIL - Word Information Lost,Summary Error Rates,Percentage (%),True
+OB,OB_0001,clean,whisper,WHISPER_Metrics,jiwer.wip(),0.5176552120484779,WIP - Word Information Preserved,Summary Error Rates,Percentage (%),False
+OB,OB_0001,clean,whisper,WHISPER_Metrics,result.substitutions,151.0,Substitutions,Error Type Breakdown,Integer count,True
+OB,OB_0001,clean,whisper,WHISPER_Metrics,result.deletions,32.0,Deletions,Error Type Breakdown,Integer count,True
+OB,OB_0001,clean,whisper,WHISPER_Metrics,result.insertions,221.0,Insertions,Error Type Breakdown,Integer count,True
+OB,OB_0001,clean,whisper,WHISPER_Metrics,result.hits,700.0,Hits - Correct Words,Error Type Breakdown,Integer count,False
+OB,OB_0001,clean,whisper,WHISPER_Metrics,hits / N * 100,79.27519818799547,Word Accuracy,Derived Metrics,Percentage (%),False
+OB,OB_0001,clean,whisper,WHISPER_Metrics,S / (S+D+I) * 100,37.37623762376238,Substitution Rate,Derived Metrics,Percentage (%),False
+OB,OB_0001,clean,whisper,WHISPER_Metrics,D / (S+D+I) * 100,7.920792079207921,Deletion Rate,Derived Metrics,Percentage (%),False
+OB,OB_0001,clean,whisper,WHISPER_Metrics,I / (S+D+I) * 100,54.7029702970297,Insertion Rate,Derived Metrics,Percentage (%),False
+OB,OB_0001,clean,whisper,WHISPER_Metrics,whisper_wer,45.75311438278596,,,,True
+OB,OB_0001,med,whisper,WHISPER_Metrics,jiwer.wer(),0.49037372593431483,WER - Word Error Rate,Summary Error Rates,Percentage (%),True
+OB,OB_0001,med,whisper,WHISPER_Metrics,jiwer.cer(),0.3539347408829175,CER - Character Error Rate,Summary Error Rates,Percentage (%),True
+OB,OB_0001,med,whisper,WHISPER_Metrics,jiwer.mer(),0.3893884892086331,MER - Match Error Rate,Summary Error Rates,Percentage (%),True
+OB,OB_0001,med,whisper,WHISPER_Metrics,jiwer.wil(),0.5165460760874125,WIL - Word Information Lost,Summary Error Rates,Percentage (%),True
+OB,OB_0001,med,whisper,WHISPER_Metrics,jiwer.wip(),0.4834539239125875,WIP - Word Information Preserved,Summary Error Rates,Percentage (%),False
+OB,OB_0001,med,whisper,WHISPER_Metrics,result.substitutions,172.0,Substitutions,Error Type Breakdown,Integer count,True
+OB,OB_0001,med,whisper,WHISPER_Metrics,result.deletions,32.0,Deletions,Error Type Breakdown,Integer count,True
+OB,OB_0001,med,whisper,WHISPER_Metrics,result.insertions,229.0,Insertions,Error Type Breakdown,Integer count,True
+OB,OB_0001,med,whisper,WHISPER_Metrics,result.hits,679.0,Hits - Correct Words,Error Type Breakdown,Integer count,False
+OB,OB_0001,med,whisper,WHISPER_Metrics,hits / N * 100,76.8969422423556,Word Accuracy,Derived Metrics,Percentage (%),False
+OB,OB_0001,med,whisper,WHISPER_Metrics,S / (S+D+I) * 100,39.722863741339495,Substitution Rate,Derived Metrics,Percentage (%),False
+OB,OB_0001,med,whisper,WHISPER_Metrics,D / (S+D+I) * 100,7.390300230946882,Deletion Rate,Derived Metrics,Percentage (%),False
+OB,OB_0001,med,whisper,WHISPER_Metrics,I / (S+D+I) * 100,52.88683602771363,Insertion Rate,Derived Metrics,Percentage (%),False
+OB,OB_0001,med,whisper,WHISPER_Metrics,whisper_wer,49.037372593431485,,,,True
+OB,OB_0001,hard,whisper,WHISPER_Metrics,jiwer.wer(),0.5753114382785957,WER - Word Error Rate,Summary Error Rates,Percentage (%),True
+OB,OB_0001,hard,whisper,WHISPER_Metrics,jiwer.cer(),0.39001919385796546,CER - Character Error Rate,Summary Error Rates,Percentage (%),True
+OB,OB_0001,hard,whisper,WHISPER_Metrics,jiwer.mer(),0.43982683982683984,MER - Match Error Rate,Summary Error Rates,Percentage (%),True
+OB,OB_0001,hard,whisper,WHISPER_Metrics,jiwer.wil(),0.5774724797774562,WIL - Word Information Lost,Summary Error Rates,Percentage (%),True
+OB,OB_0001,hard,whisper,WHISPER_Metrics,jiwer.wip(),0.42252752022254386,WIP - Word Information Preserved,Summary Error Rates,Percentage (%),False
+OB,OB_0001,hard,whisper,WHISPER_Metrics,result.substitutions,203.0,Substitutions,Error Type Breakdown,Integer count,True
+OB,OB_0001,hard,whisper,WHISPER_Metrics,result.deletions,33.0,Deletions,Error Type Breakdown,Integer count,True
+OB,OB_0001,hard,whisper,WHISPER_Metrics,result.insertions,272.0,Insertions,Error Type Breakdown,Integer count,True
+OB,OB_0001,hard,whisper,WHISPER_Metrics,result.hits,647.0,Hits - Correct Words,Error Type Breakdown,Integer count,False
+OB,OB_0001,hard,whisper,WHISPER_Metrics,hits / N * 100,73.27293318233295,Word Accuracy,Derived Metrics,Percentage (%),False
+OB,OB_0001,hard,whisper,WHISPER_Metrics,S / (S+D+I) * 100,39.960629921259844,Substitution Rate,Derived Metrics,Percentage (%),False
+OB,OB_0001,hard,whisper,WHISPER_Metrics,D / (S+D+I) * 100,6.496062992125984,Deletion Rate,Derived Metrics,Percentage (%),False
+OB,OB_0001,hard,whisper,WHISPER_Metrics,I / (S+D+I) * 100,53.54330708661417,Insertion Rate,Derived Metrics,Percentage (%),False
+OB,OB_0001,hard,whisper,WHISPER_Metrics,whisper_wer,57.531143827859566,,,,True
+RESP,RESP_0001,clean,whisper,WHISPER_Metrics,jiwer.wer(),0.2553191489361702,WER - Word Error Rate,Summary Error Rates,Percentage (%),True
+RESP,RESP_0001,clean,whisper,WHISPER_Metrics,jiwer.cer(),0.12853586784340348,CER - Character Error Rate,Summary Error Rates,Percentage (%),True
+RESP,RESP_0001,clean,whisper,WHISPER_Metrics,jiwer.mer(),0.2414486921529175,MER - Match Error Rate,Summary Error Rates,Percentage (%),True
+RESP,RESP_0001,clean,whisper,WHISPER_Metrics,jiwer.wil(),0.3726096936523351,WIL - Word Information Lost,Summary Error Rates,Percentage (%),True
+RESP,RESP_0001,clean,whisper,WHISPER_Metrics,jiwer.wip(),0.6273903063476649,WIP - Word Information Preserved,Summary Error Rates,Percentage (%),False
+RESP,RESP_0001,clean,whisper,WHISPER_Metrics,result.substitutions,156.0,Substitutions,Error Type Breakdown,Integer count,True
+RESP,RESP_0001,clean,whisper,WHISPER_Metrics,result.deletions,30.0,Deletions,Error Type Breakdown,Integer count,True
+RESP,RESP_0001,clean,whisper,WHISPER_Metrics,result.insertions,54.0,Insertions,Error Type Breakdown,Integer count,True
+RESP,RESP_0001,clean,whisper,WHISPER_Metrics,result.hits,754.0,Hits - Correct Words,Error Type Breakdown,Integer count,False
+RESP,RESP_0001,clean,whisper,WHISPER_Metrics,hits / N * 100,80.2127659574468,Word Accuracy,Derived Metrics,Percentage (%),False
+RESP,RESP_0001,clean,whisper,WHISPER_Metrics,S / (S+D+I) * 100,65.0,Substitution Rate,Derived Metrics,Percentage (%),False
+RESP,RESP_0001,clean,whisper,WHISPER_Metrics,D / (S+D+I) * 100,12.5,Deletion Rate,Derived Metrics,Percentage (%),False
+RESP,RESP_0001,clean,whisper,WHISPER_Metrics,I / (S+D+I) * 100,22.5,Insertion Rate,Derived Metrics,Percentage (%),False
+RESP,RESP_0001,clean,whisper,WHISPER_Metrics,whisper_wer,25.53191489361702,,,,True
+RESP,RESP_0001,med,whisper,WHISPER_Metrics,jiwer.wer(),0.2553191489361702,WER - Word Error Rate,Summary Error Rates,Percentage (%),True
+RESP,RESP_0001,med,whisper,WHISPER_Metrics,jiwer.cer(),0.13532473410273818,CER - Character Error Rate,Summary Error Rates,Percentage (%),True
+RESP,RESP_0001,med,whisper,WHISPER_Metrics,jiwer.mer(),0.24266936299292213,MER - Match Error Rate,Summary Error Rates,Percentage (%),True
+RESP,RESP_0001,med,whisper,WHISPER_Metrics,jiwer.wil(),0.3757222024392416,WIL - Word Information Lost,Summary Error Rates,Percentage (%),True
+RESP,RESP_0001,med,whisper,WHISPER_Metrics,jiwer.wip(),0.6242777975607584,WIP - Word Information Preserved,Summary Error Rates,Percentage (%),False
+RESP,RESP_0001,med,whisper,WHISPER_Metrics,result.substitutions,158.0,Substitutions,Error Type Breakdown,Integer count,True
+RESP,RESP_0001,med,whisper,WHISPER_Metrics,result.deletions,33.0,Deletions,Error Type Breakdown,Integer count,True
+RESP,RESP_0001,med,whisper,WHISPER_Metrics,result.insertions,49.0,Insertions,Error Type Breakdown,Integer count,True
+RESP,RESP_0001,med,whisper,WHISPER_Metrics,result.hits,749.0,Hits - Correct Words,Error Type Breakdown,Integer count,False
+RESP,RESP_0001,med,whisper,WHISPER_Metrics,hits / N * 100,79.68085106382979,Word Accuracy,Derived Metrics,Percentage (%),False
+RESP,RESP_0001,med,whisper,WHISPER_Metrics,S / (S+D+I) * 100,65.83333333333333,Substitution Rate,Derived Metrics,Percentage (%),False
+RESP,RESP_0001,med,whisper,WHISPER_Metrics,D / (S+D+I) * 100,13.75,Deletion Rate,Derived Metrics,Percentage (%),False
+RESP,RESP_0001,med,whisper,WHISPER_Metrics,I / (S+D+I) * 100,20.416666666666668,Insertion Rate,Derived Metrics,Percentage (%),False
+RESP,RESP_0001,med,whisper,WHISPER_Metrics,whisper_wer,25.53191489361702,,,,True
+RESP,RESP_0001,hard,whisper,WHISPER_Metrics,jiwer.wer(),0.2946808510638298,WER - Word Error Rate,Summary Error Rates,Percentage (%),True
+RESP,RESP_0001,hard,whisper,WHISPER_Metrics,jiwer.cer(),0.16180131251414348,CER - Character Error Rate,Summary Error Rates,Percentage (%),True
+RESP,RESP_0001,hard,whisper,WHISPER_Metrics,jiwer.mer(),0.27589641434262946,MER - Match Error Rate,Summary Error Rates,Percentage (%),True
+RESP,RESP_0001,hard,whisper,WHISPER_Metrics,jiwer.wil(),0.42272598191270916,WIL - Word Information Lost,Summary Error Rates,Percentage (%),True
+RESP,RESP_0001,hard,whisper,WHISPER_Metrics,jiwer.wip(),0.5772740180872908,WIP - Word Information Preserved,Summary Error Rates,Percentage (%),False
+RESP,RESP_0001,hard,whisper,WHISPER_Metrics,result.substitutions,183.0,Substitutions,Error Type Breakdown,Integer count,True
+RESP,RESP_0001,hard,whisper,WHISPER_Metrics,result.deletions,30.0,Deletions,Error Type Breakdown,Integer count,True
+RESP,RESP_0001,hard,whisper,WHISPER_Metrics,result.insertions,64.0,Insertions,Error Type Breakdown,Integer count,True
+RESP,RESP_0001,hard,whisper,WHISPER_Metrics,result.hits,727.0,Hits - Correct Words,Error Type Breakdown,Integer count,False
+RESP,RESP_0001,hard,whisper,WHISPER_Metrics,hits / N * 100,77.34042553191489,Word Accuracy,Derived Metrics,Percentage (%),False
+RESP,RESP_0001,hard,whisper,WHISPER_Metrics,S / (S+D+I) * 100,66.06498194945848,Substitution Rate,Derived Metrics,Percentage (%),False
+RESP,RESP_0001,hard,whisper,WHISPER_Metrics,D / (S+D+I) * 100,10.830324909747292,Deletion Rate,Derived Metrics,Percentage (%),False
+RESP,RESP_0001,hard,whisper,WHISPER_Metrics,I / (S+D+I) * 100,23.104693140794225,Insertion Rate,Derived Metrics,Percentage (%),False
+RESP,RESP_0001,hard,whisper,WHISPER_Metrics,whisper_wer,29.46808510638298,,,,True
+TRAUMA,TRMA_0001,clean,whisper,WHISPER_Metrics,jiwer.wer(),0.3489208633093525,WER - Word Error Rate,Summary Error Rates,Percentage (%),True
+TRAUMA,TRMA_0001,clean,whisper,WHISPER_Metrics,jiwer.cer(),0.15886524822695036,CER - Character Error Rate,Summary Error Rates,Percentage (%),True
+TRAUMA,TRMA_0001,clean,whisper,WHISPER_Metrics,jiwer.mer(),0.3310580204778157,MER - Match Error Rate,Summary Error Rates,Percentage (%),True
+TRAUMA,TRMA_0001,clean,whisper,WHISPER_Metrics,jiwer.wil(),0.4732386898613258,WIL - Word Information Lost,Summary Error Rates,Percentage (%),True
+TRAUMA,TRMA_0001,clean,whisper,WHISPER_Metrics,jiwer.wip(),0.5267613101386742,WIP - Word Information Preserved,Summary Error Rates,Percentage (%),False
+TRAUMA,TRMA_0001,clean,whisper,WHISPER_Metrics,result.substitutions,154.0,Substitutions,Error Type Breakdown,Integer count,True
+TRAUMA,TRMA_0001,clean,whisper,WHISPER_Metrics,result.deletions,92.0,Deletions,Error Type Breakdown,Integer count,True
+TRAUMA,TRMA_0001,clean,whisper,WHISPER_Metrics,result.insertions,45.0,Insertions,Error Type Breakdown,Integer count,True
+TRAUMA,TRMA_0001,clean,whisper,WHISPER_Metrics,result.hits,588.0,Hits - Correct Words,Error Type Breakdown,Integer count,False
+TRAUMA,TRMA_0001,clean,whisper,WHISPER_Metrics,hits / N * 100,70.50359712230215,Word Accuracy,Derived Metrics,Percentage (%),False
+TRAUMA,TRMA_0001,clean,whisper,WHISPER_Metrics,S / (S+D+I) * 100,52.92096219931271,Substitution Rate,Derived Metrics,Percentage (%),False
+TRAUMA,TRMA_0001,clean,whisper,WHISPER_Metrics,D / (S+D+I) * 100,31.61512027491409,Deletion Rate,Derived Metrics,Percentage (%),False
+TRAUMA,TRMA_0001,clean,whisper,WHISPER_Metrics,I / (S+D+I) * 100,15.463917525773196,Insertion Rate,Derived Metrics,Percentage (%),False
+TRAUMA,TRMA_0001,clean,whisper,WHISPER_Metrics,whisper_wer,34.89208633093525,,,,True
+TRAUMA,TRMA_0001,med,whisper,WHISPER_Metrics,jiwer.wer(),0.3393285371702638,WER - Word Error Rate,Summary Error Rates,Percentage (%),True
+TRAUMA,TRMA_0001,med,whisper,WHISPER_Metrics,jiwer.cer(),0.15177304964539007,CER - Character Error Rate,Summary Error Rates,Percentage (%),True
+TRAUMA,TRMA_0001,med,whisper,WHISPER_Metrics,jiwer.mer(),0.3186936936936937,MER - Match Error Rate,Summary Error Rates,Percentage (%),True
+TRAUMA,TRMA_0001,med,whisper,WHISPER_Metrics,jiwer.wil(),0.4737663106924531,WIL - Word Information Lost,Summary Error Rates,Percentage (%),True
+TRAUMA,TRMA_0001,med,whisper,WHISPER_Metrics,jiwer.wip(),0.5262336893075469,WIP - Word Information Preserved,Summary Error Rates,Percentage (%),False
+TRAUMA,TRMA_0001,med,whisper,WHISPER_Metrics,result.substitutions,175.0,Substitutions,Error Type Breakdown,Integer count,True
+TRAUMA,TRMA_0001,med,whisper,WHISPER_Metrics,result.deletions,54.0,Deletions,Error Type Breakdown,Integer count,True
+TRAUMA,TRMA_0001,med,whisper,WHISPER_Metrics,result.insertions,54.0,Insertions,Error Type Breakdown,Integer count,True
+TRAUMA,TRMA_0001,med,whisper,WHISPER_Metrics,result.hits,605.0,Hits - Correct Words,Error Type Breakdown,Integer count,False
+TRAUMA,TRMA_0001,med,whisper,WHISPER_Metrics,hits / N * 100,72.54196642685851,Word Accuracy,Derived Metrics,Percentage (%),False
+TRAUMA,TRMA_0001,med,whisper,WHISPER_Metrics,S / (S+D+I) * 100,61.83745583038869,Substitution Rate,Derived Metrics,Percentage (%),False
+TRAUMA,TRMA_0001,med,whisper,WHISPER_Metrics,D / (S+D+I) * 100,19.081272084805654,Deletion Rate,Derived Metrics,Percentage (%),False
+TRAUMA,TRMA_0001,med,whisper,WHISPER_Metrics,I / (S+D+I) * 100,19.081272084805654,Insertion Rate,Derived Metrics,Percentage (%),False
+TRAUMA,TRMA_0001,med,whisper,WHISPER_Metrics,whisper_wer,33.932853717026376,,,,True
+TRAUMA,TRMA_0001,hard,whisper,WHISPER_Metrics,jiwer.wer(),0.41007194244604317,WER - Word Error Rate,Summary Error Rates,Percentage (%),True
+TRAUMA,TRMA_0001,hard,whisper,WHISPER_Metrics,jiwer.cer(),0.20307328605200944,CER - Character Error Rate,Summary Error Rates,Percentage (%),True
+TRAUMA,TRMA_0001,hard,whisper,WHISPER_Metrics,jiwer.mer(),0.37458926615553123,MER - Match Error Rate,Summary Error Rates,Percentage (%),True
+TRAUMA,TRMA_0001,hard,whisper,WHISPER_Metrics,jiwer.wil(),0.5496123838256584,WIL - Word Information Lost,Summary Error Rates,Percentage (%),True
+TRAUMA,TRMA_0001,hard,whisper,WHISPER_Metrics,jiwer.wip(),0.4503876161743416,WIP - Word Information Preserved,Summary Error Rates,Percentage (%),False
+TRAUMA,TRMA_0001,hard,whisper,WHISPER_Metrics,result.substitutions,218.0,Substitutions,Error Type Breakdown,Integer count,True
+TRAUMA,TRMA_0001,hard,whisper,WHISPER_Metrics,result.deletions,45.0,Deletions,Error Type Breakdown,Integer count,True
+TRAUMA,TRMA_0001,hard,whisper,WHISPER_Metrics,result.insertions,79.0,Insertions,Error Type Breakdown,Integer count,True
+TRAUMA,TRMA_0001,hard,whisper,WHISPER_Metrics,result.hits,571.0,Hits - Correct Words,Error Type Breakdown,Integer count,False
+TRAUMA,TRMA_0001,hard,whisper,WHISPER_Metrics,hits / N * 100,68.4652278177458,Word Accuracy,Derived Metrics,Percentage (%),False
+TRAUMA,TRMA_0001,hard,whisper,WHISPER_Metrics,S / (S+D+I) * 100,63.74269005847953,Substitution Rate,Derived Metrics,Percentage (%),False
+TRAUMA,TRMA_0001,hard,whisper,WHISPER_Metrics,D / (S+D+I) * 100,13.157894736842104,Deletion Rate,Derived Metrics,Percentage (%),False
+TRAUMA,TRMA_0001,hard,whisper,WHISPER_Metrics,I / (S+D+I) * 100,23.099415204678362,Insertion Rate,Derived Metrics,Percentage (%),False
+TRAUMA,TRMA_0001,hard,whisper,WHISPER_Metrics,whisper_wer,41.007194244604314,,,,True

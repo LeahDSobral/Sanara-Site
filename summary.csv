@@ -1,0 +1,253 @@
+specialty,audio_tier,model,metric_code,mean_value,n
+CARDIAC,clean,whisper,D / (S+D+I) * 100,27.011494252873565,1
+CARDIAC,clean,whisper,I / (S+D+I) * 100,13.218390804597702,1
+CARDIAC,clean,whisper,S / (S+D+I) * 100,59.770114942528735,1
+CARDIAC,clean,whisper,hits / N * 100,76.03174603174604,1
+CARDIAC,clean,whisper,jiwer.cer(),0.11773794808405438,1
+CARDIAC,clean,whisper,jiwer.mer(),0.2664624808575804,1
+CARDIAC,clean,whisper,jiwer.wer(),0.2761904761904762,1
+CARDIAC,clean,whisper,jiwer.wil(),0.3990229975378491,1
+CARDIAC,clean,whisper,jiwer.wip(),0.6009770024621509,1
+CARDIAC,clean,whisper,result.deletions,47.0,1
+CARDIAC,clean,whisper,result.hits,479.0,1
+CARDIAC,clean,whisper,result.insertions,23.0,1
+CARDIAC,clean,whisper,result.substitutions,104.0,1
+CARDIAC,clean,whisper,whisper_wer,27.61904761904762,1
+CARDIAC,hard,whisper,D / (S+D+I) * 100,22.115384615384617,1
+CARDIAC,hard,whisper,I / (S+D+I) * 100,16.346153846153847,1
+CARDIAC,hard,whisper,S / (S+D+I) * 100,61.53846153846154,1
+CARDIAC,hard,whisper,hits / N * 100,72.38095238095238,1
+CARDIAC,hard,whisper,jiwer.cer(),0.1492583436341162,1
+CARDIAC,hard,whisper,jiwer.mer(),0.3132530120481928,1
+CARDIAC,hard,whisper,jiwer.wer(),0.33015873015873015,1
+CARDIAC,hard,whisper,jiwer.wil(),0.4659269533055941,1
+CARDIAC,hard,whisper,jiwer.wip(),0.5340730466944059,1
+CARDIAC,hard,whisper,result.deletions,46.0,1
+CARDIAC,hard,whisper,result.hits,456.0,1
+CARDIAC,hard,whisper,result.insertions,34.0,1
+CARDIAC,hard,whisper,result.substitutions,128.0,1
+CARDIAC,hard,whisper,whisper_wer,33.01587301587301,1
+CARDIAC,med,whisper,D / (S+D+I) * 100,20.571428571428573,1
+CARDIAC,med,whisper,I / (S+D+I) * 100,14.857142857142858,1
+CARDIAC,med,whisper,S / (S+D+I) * 100,64.57142857142857,1
+CARDIAC,med,whisper,hits / N * 100,76.34920634920636,1
+CARDIAC,med,whisper,jiwer.cer(),0.12021013597033374,1
+CARDIAC,med,whisper,jiwer.mer(),0.26676829268292684,1
+CARDIAC,med,whisper,jiwer.wer(),0.2777777777777778,1
+CARDIAC,med,whisper,jiwer.wil(),0.4076779313876089,1
+CARDIAC,med,whisper,jiwer.wip(),0.5923220686123911,1
+CARDIAC,med,whisper,result.deletions,36.0,1
+CARDIAC,med,whisper,result.hits,481.0,1
+CARDIAC,med,whisper,result.insertions,26.0,1
+CARDIAC,med,whisper,result.substitutions,113.0,1
+CARDIAC,med,whisper,whisper_wer,27.77777777777778,1
+HALO,clean,whisper,D / (S+D+I) * 100,25.37313432835821,1
+HALO,clean,whisper,I / (S+D+I) * 100,22.885572139303484,1
+HALO,clean,whisper,S / (S+D+I) * 100,51.74129353233831,1
+HALO,clean,whisper,hits / N * 100,80.76923076923077,1
+HALO,clean,whisper,jiwer.cer(),0.12581699346405228,1
+HALO,clean,whisper,jiwer.mer(),0.23591549295774647,1
+HALO,clean,whisper,jiwer.wer(),0.24937965260545905,1
+HALO,clean,whisper,jiwer.wil(),0.34356093344857386,1
+HALO,clean,whisper,jiwer.wip(),0.6564390665514261,1
+HALO,clean,whisper,result.deletions,51.0,1
+HALO,clean,whisper,result.hits,651.0,1
+HALO,clean,whisper,result.insertions,46.0,1
+HALO,clean,whisper,result.substitutions,104.0,1
+HALO,clean,whisper,whisper_wer,24.937965260545905,1
+HALO,hard,whisper,D / (S+D+I) * 100,19.302949061662197,1
+HALO,hard,whisper,I / (S+D+I) * 100,0.40214477211796246,1
+HALO,hard,whisper,S / (S+D+I) * 100,80.29490616621985,1
+HALO,hard,whisper,hits / N * 100,7.816377171215881,1
+HALO,hard,whisper,jiwer.cer(),0.6995798319327731,1
+HALO,hard,whisper,jiwer.mer(),0.9221260815822002,1
+HALO,hard,whisper,jiwer.wer(),0.9255583126550868,1
+HALO,hard,whisper,jiwer.wil(),0.9925950111009534,1
+HALO,hard,whisper,jiwer.wip(),0.007404988899046625,1
+HALO,hard,whisper,result.deletions,144.0,1
+HALO,hard,whisper,result.hits,63.0,1
+HALO,hard,whisper,result.insertions,3.0,1
+HALO,hard,whisper,result.substitutions,599.0,1
+HALO,hard,whisper,whisper_wer,92.55583126550869,1
+HALO,med,whisper,D / (S+D+I) * 100,21.98391420911528,1
+HALO,med,whisper,I / (S+D+I) * 100,0.5361930294906166,1
+HALO,med,whisper,S / (S+D+I) * 100,77.4798927613941,1
+HALO,med,whisper,hits / N * 100,7.94044665012407,1
+HALO,med,whisper,jiwer.cer(),0.6986461251167133,1
+HALO,med,whisper,jiwer.mer(),0.9209876543209876,1
+HALO,med,whisper,jiwer.wer(),0.9255583126550868,1
+HALO,med,whisper,jiwer.wil(),0.99213330362836,1
+HALO,med,whisper,jiwer.wip(),0.007866696371639946,1
+HALO,med,whisper,result.deletions,164.0,1
+HALO,med,whisper,result.hits,64.0,1
+HALO,med,whisper,result.insertions,4.0,1
+HALO,med,whisper,result.substitutions,578.0,1
+HALO,med,whisper,whisper_wer,92.55583126550869,1
+NEURO,clean,whisper,D / (S+D+I) * 100,21.115537848605577,1
+NEURO,clean,whisper,I / (S+D+I) * 100,9.56175298804781,1
+NEURO,clean,whisper,S / (S+D+I) * 100,69.32270916334662,1
+NEURO,clean,whisper,hits / N * 100,81.64915117219078,1
+NEURO,clean,whisper,jiwer.cer(),0.07549713515335356,1
+NEURO,clean,whisper,jiwer.mer(),0.19904837430610625,1
+NEURO,clean,whisper,jiwer.wer(),0.2029102667744543,1
+NEURO,clean,whisper,jiwer.wil(),0.3173373950007228,1
+NEURO,clean,whisper,jiwer.wip(),0.6826626049992772,1
+NEURO,clean,whisper,result.deletions,53.0,1
+NEURO,clean,whisper,result.hits,1010.0,1
+NEURO,clean,whisper,result.insertions,24.0,1
+NEURO,clean,whisper,result.substitutions,174.0,1
+NEURO,clean,whisper,whisper_wer,20.29102667744543,1
+NEURO,hard,whisper,D / (S+D+I) * 100,19.618528610354222,1
+NEURO,hard,whisper,I / (S+D+I) * 100,11.444141689373296,1
+NEURO,hard,whisper,S / (S+D+I) * 100,68.93732970027249,1
+NEURO,hard,whisper,hits / N * 100,73.72675828617623,1
+NEURO,hard,whisper,jiwer.cer(),0.15369059656218403,1
+NEURO,hard,whisper,jiwer.mer(),0.2869429241594996,1
+NEURO,hard,whisper,jiwer.wer(),0.29668552950687144,1
+NEURO,hard,whisper,jiwer.wil(),0.44292623399343223,1
+NEURO,hard,whisper,jiwer.wip(),0.5570737660065678,1
+NEURO,hard,whisper,result.deletions,72.0,1
+NEURO,hard,whisper,result.hits,912.0,1
+NEURO,hard,whisper,result.insertions,42.0,1
+NEURO,hard,whisper,result.substitutions,253.0,1
+NEURO,hard,whisper,whisper_wer,29.668552950687143,1
+NEURO,med,whisper,D / (S+D+I) * 100,17.120622568093385,1
+NEURO,med,whisper,I / (S+D+I) * 100,12.062256809338521,1
+NEURO,med,whisper,S / (S+D+I) * 100,70.8171206225681,1
+NEURO,med,whisper,hits / N * 100,81.72999191592562,1
+NEURO,med,whisper,jiwer.cer(),0.07819346140883048,1
+NEURO,med,whisper,jiwer.mer(),0.20268138801261829,1
+NEURO,med,whisper,jiwer.wer(),0.20776071139854488,1
+NEURO,med,whisper,jiwer.wil(),0.32492629226306535,1
+NEURO,med,whisper,jiwer.wip(),0.6750737077369346,1
+NEURO,med,whisper,result.deletions,44.0,1
+NEURO,med,whisper,result.hits,1011.0,1
+NEURO,med,whisper,result.insertions,31.0,1
+NEURO,med,whisper,result.substitutions,182.0,1
+NEURO,med,whisper,whisper_wer,20.776071139854487,1
+OB,clean,whisper,D / (S+D+I) * 100,7.920792079207921,1
+OB,clean,whisper,I / (S+D+I) * 100,54.7029702970297,1
+OB,clean,whisper,S / (S+D+I) * 100,37.37623762376238,1
+OB,clean,whisper,hits / N * 100,79.27519818799547,1
+OB,clean,whisper,jiwer.cer(),0.34088291746641075,1
+OB,clean,whisper,jiwer.mer(),0.36594202898550726,1
+OB,clean,whisper,jiwer.wer(),0.4575311438278596,1
+OB,clean,whisper,jiwer.wil(),0.48234478795152214,1
+OB,clean,whisper,jiwer.wip(),0.5176552120484779,1
+OB,clean,whisper,result.deletions,32.0,1
+OB,clean,whisper,result.hits,700.0,1
+OB,clean,whisper,result.insertions,221.0,1
+OB,clean,whisper,result.substitutions,151.0,1
+OB,clean,whisper,whisper_wer,45.75311438278596,1
+OB,hard,whisper,D / (S+D+I) * 100,6.496062992125984,1
+OB,hard,whisper,I / (S+D+I) * 100,53.54330708661417,1
+OB,hard,whisper,S / (S+D+I) * 100,39.960629921259844,1
+OB,hard,whisper,hits / N * 100,73.27293318233295,1
+OB,hard,whisper,jiwer.cer(),0.39001919385796546,1
+OB,hard,whisper,jiwer.mer(),0.43982683982683984,1
+OB,hard,whisper,jiwer.wer(),0.5753114382785957,1
+OB,hard,whisper,jiwer.wil(),0.5774724797774562,1
+OB,hard,whisper,jiwer.wip(),0.42252752022254386,1
+OB,hard,whisper,result.deletions,33.0,1
+OB,hard,whisper,result.hits,647.0,1
+OB,hard,whisper,result.insertions,272.0,1
+OB,hard,whisper,result.substitutions,203.0,1
+OB,hard,whisper,whisper_wer,57.531143827859566,1
+OB,med,whisper,D / (S+D+I) * 100,7.390300230946882,1
+OB,med,whisper,I / (S+D+I) * 100,52.88683602771363,1
+OB,med,whisper,S / (S+D+I) * 100,39.722863741339495,1
+OB,med,whisper,hits / N * 100,76.8969422423556,1
+OB,med,whisper,jiwer.cer(),0.3539347408829175,1
+OB,med,whisper,jiwer.mer(),0.3893884892086331,1
+OB,med,whisper,jiwer.wer(),0.49037372593431483,1
+OB,med,whisper,jiwer.wil(),0.5165460760874125,1
+OB,med,whisper,jiwer.wip(),0.4834539239125875,1
+OB,med,whisper,result.deletions,32.0,1
+OB,med,whisper,result.hits,679.0,1
+OB,med,whisper,result.insertions,229.0,1
+OB,med,whisper,result.substitutions,172.0,1
+OB,med,whisper,whisper_wer,49.037372593431485,1
+RESP,clean,whisper,D / (S+D+I) * 100,12.5,1
+RESP,clean,whisper,I / (S+D+I) * 100,22.5,1
+RESP,clean,whisper,S / (S+D+I) * 100,65.0,1
+RESP,clean,whisper,hits / N * 100,80.2127659574468,1
+RESP,clean,whisper,jiwer.cer(),0.12853586784340348,1
+RESP,clean,whisper,jiwer.mer(),0.2414486921529175,1
+RESP,clean,whisper,jiwer.wer(),0.2553191489361702,1
+RESP,clean,whisper,jiwer.wil(),0.3726096936523351,1
+RESP,clean,whisper,jiwer.wip(),0.6273903063476649,1
+RESP,clean,whisper,result.deletions,30.0,1
+RESP,clean,whisper,result.hits,754.0,1
+RESP,clean,whisper,result.insertions,54.0,1
+RESP,clean,whisper,result.substitutions,156.0,1
+RESP,clean,whisper,whisper_wer,25.53191489361702,1
+RESP,hard,whisper,D / (S+D+I) * 100,10.830324909747292,1
+RESP,hard,whisper,I / (S+D+I) * 100,23.104693140794225,1
+RESP,hard,whisper,S / (S+D+I) * 100,66.06498194945848,1
+RESP,hard,whisper,hits / N * 100,77.34042553191489,1
+RESP,hard,whisper,jiwer.cer(),0.16180131251414348,1
+RESP,hard,whisper,jiwer.mer(),0.27589641434262946,1
+RESP,hard,whisper,jiwer.wer(),0.2946808510638298,1
+RESP,hard,whisper,jiwer.wil(),0.42272598191270916,1
+RESP,hard,whisper,jiwer.wip(),0.5772740180872908,1
+RESP,hard,whisper,result.deletions,30.0,1
+RESP,hard,whisper,result.hits,727.0,1
+RESP,hard,whisper,result.insertions,64.0,1
+RESP,hard,whisper,result.substitutions,183.0,1
+RESP,hard,whisper,whisper_wer,29.46808510638298,1
+RESP,med,whisper,D / (S+D+I) * 100,13.75,1
+RESP,med,whisper,I / (S+D+I) * 100,20.416666666666668,1
+RESP,med,whisper,S / (S+D+I) * 100,65.83333333333333,1
+RESP,med,whisper,hits / N * 100,79.68085106382979,1
+RESP,med,whisper,jiwer.cer(),0.13532473410273818,1
+RESP,med,whisper,jiwer.mer(),0.24266936299292213,1
+RESP,med,whisper,jiwer.wer(),0.2553191489361702,1
+RESP,med,whisper,jiwer.wil(),0.3757222024392416,1
+RESP,med,whisper,jiwer.wip(),0.6242777975607584,1
+RESP,med,whisper,result.deletions,33.0,1
+RESP,med,whisper,result.hits,749.0,1
+RESP,med,whisper,result.insertions,49.0,1
+RESP,med,whisper,result.substitutions,158.0,1
+RESP,med,whisper,whisper_wer,25.53191489361702,1
+TRAUMA,clean,whisper,D / (S+D+I) * 100,31.61512027491409,1
+TRAUMA,clean,whisper,I / (S+D+I) * 100,15.463917525773196,1
+TRAUMA,clean,whisper,S / (S+D+I) * 100,52.92096219931271,1
+TRAUMA,clean,whisper,hits / N * 100,70.50359712230215,1
+TRAUMA,clean,whisper,jiwer.cer(),0.15886524822695036,1
+TRAUMA,clean,whisper,jiwer.mer(),0.3310580204778157,1
+TRAUMA,clean,whisper,jiwer.wer(),0.3489208633093525,1
+TRAUMA,clean,whisper,jiwer.wil(),0.4732386898613258,1
+TRAUMA,clean,whisper,jiwer.wip(),0.5267613101386742,1
+TRAUMA,clean,whisper,result.deletions,92.0,1
+TRAUMA,clean,whisper,result.hits,588.0,1
+TRAUMA,clean,whisper,result.insertions,45.0,1
+TRAUMA,clean,whisper,result.substitutions,154.0,1
+TRAUMA,clean,whisper,whisper_wer,34.89208633093525,1
+TRAUMA,hard,whisper,D / (S+D+I) * 100,13.157894736842104,1
+TRAUMA,hard,whisper,I / (S+D+I) * 100,23.099415204678362,1
+TRAUMA,hard,whisper,S / (S+D+I) * 100,63.74269005847953,1
+TRAUMA,hard,whisper,hits / N * 100,68.4652278177458,1
+TRAUMA,hard,whisper,jiwer.cer(),0.20307328605200944,1
+TRAUMA,hard,whisper,jiwer.mer(),0.37458926615553123,1
+TRAUMA,hard,whisper,jiwer.wer(),0.41007194244604317,1
+TRAUMA,hard,whisper,jiwer.wil(),0.5496123838256584,1
+TRAUMA,hard,whisper,jiwer.wip(),0.4503876161743416,1
+TRAUMA,hard,whisper,result.deletions,45.0,1
+TRAUMA,hard,whisper,result.hits,571.0,1
+TRAUMA,hard,whisper,result.insertions,79.0,1
+TRAUMA,hard,whisper,result.substitutions,218.0,1
+TRAUMA,hard,whisper,whisper_wer,41.007194244604314,1
+TRAUMA,med,whisper,D / (S+D+I) * 100,19.081272084805654,1
+TRAUMA,med,whisper,I / (S+D+I) * 100,19.081272084805654,1
+TRAUMA,med,whisper,S / (S+D+I) * 100,61.83745583038869,1
+TRAUMA,med,whisper,hits / N * 100,72.54196642685851,1
+TRAUMA,med,whisper,jiwer.cer(),0.15177304964539007,1
+TRAUMA,med,whisper,jiwer.mer(),0.3186936936936937,1
+TRAUMA,med,whisper,jiwer.wer(),0.3393285371702638,1
+TRAUMA,med,whisper,jiwer.wil(),0.4737663106924531,1
+TRAUMA,med,whisper,jiwer.wip(),0.5262336893075469,1
+TRAUMA,med,whisper,result.deletions,54.0,1
+TRAUMA,med,whisper,result.hits,605.0,1
+TRAUMA,med,whisper,result.insertions,54.0,1
+TRAUMA,med,whisper,result.substitutions,175.0,1
+TRAUMA,med,whisper,whisper_wer,33.932853717026376,1
